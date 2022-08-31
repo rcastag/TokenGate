@@ -1,5 +1,5 @@
 {
-  "name": "@7i7o/tokengate",
+  "name": "@rcastag/tokengate",
   "description": "ERC721 Non-Transferable implementation for Token Gating",
   "version": "1.0.2",
   "files": [
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/7i7o/TokenGate.git"
+    "url": "git+https://github.com/rcastag/TokenGate.git"
   },
   "keywords": [
     "solidity",
@@ -25,10 +25,10 @@
     "Gating",
     "7i7o"
   ],
-  "author": "@7i7o",
+  "author": "@rcastag",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/7i7o/TokenGate/issues"
+    "url": "https://github.com/rcastag/TokenGate/issues"
   },
-  "homepage": "https://github.com/7i7o/TokenGate#readme"
+  "homepage": "https://github.com/rcastag/TokenGate#readme"
 }
