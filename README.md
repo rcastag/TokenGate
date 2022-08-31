@@ -20,7 +20,7 @@ This project was developed using the [Foundry](getfoundry.sh) smart contract dev
 If you use npm, you can install by running: 
 
 ```bash
-npm i @7i7o/tokengate
+npm i @rcastag/tokengate
 ```
 
 ### Foundry
@@ -28,13 +28,13 @@ npm i @7i7o/tokengate
 If you are using Foundry (or Forge)just run:
 
 ```bash
-forge install 7i7o/TokenGate
+forge install rcastag/TokenGate
 ```
 
 and add a line in your remappings.txt file (it should sit on your main project folder) with:
 
 ```
-@7i7o/tokengate=lib/TokenGate/
+@rcastag/tokengate=lib/TokenGate/
 ```
 
 ## Usage
@@ -42,7 +42,7 @@ and add a line in your remappings.txt file (it should sit on your main project f
 Now you can import it in your solidity files like this:
 
 ```solidity
-import "@7i7o/tokengate/src/ERC721TGNT.sol";
+import "@rcastag/tokengate/src/ERC721TGNT.sol";
 ```
 
 To inherit this, you need to implement the contructor on your contract and pass a `Name` and a `Symbol` for your NFTs, like this:
